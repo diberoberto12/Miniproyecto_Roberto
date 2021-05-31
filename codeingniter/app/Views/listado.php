@@ -11,13 +11,23 @@
     <title>Hello, world!</title>
   </head>
   <body> 
-  <div class="jumbotron">
-  <h1 class="display-4">roberto leon Alcantara !</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
+      <div class="container">
+        <h1>Agregar Registro</h1>
+        <div class="row">
+          <div class="col-sm-12">
+            <from action="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="from-control" required>
+                <label for="apaterno">Apellido Paterno:</label>
+                <input type="text" id="apaterno" name="apaterno" class="from-control" required>
+                <label for="nombre">Apellido Materno:</label>
+                <input type="text" id="amaterno" name="amaterno" class="from-control" required>
+                <button class="btn btn-primary from-control">Guardar</button> 
+             
+           </from>
+         </div>
+       </div>
+     </div>
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
