@@ -15,16 +15,16 @@
         <h1>Agregar Registro</h1>
         <div class="row">
           <div class="col-sm-12">
-            <from action="">
+            <form action="">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" class="from-control" required>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
                 <label for="apaterno">Apellido Paterno:</label>
-                <input type="text" id="apaterno" name="apaterno" class="from-control" required>
+                <input type="text" id="apaterno" name="apaterno" class="form-control" required>
                 <label for="nombre">Apellido Materno:</label>
-                <input type="text" id="amaterno" name="amaterno" class="from-control" required>
-                <button class="btn btn-primary from-control">Guardar</button> 
+                <input type="text" id="amaterno" name="amaterno" class="form-control" required>
+                <button class="btn btn-primary form-control">Guardar</button> 
              
-           </from>
+           </form>
          </div>
        </div>
      </div>
