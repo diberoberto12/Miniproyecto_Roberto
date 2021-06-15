@@ -48,7 +48,7 @@
                  <th> <a href="<?php base_url('/index.php/eliminar') ?>" class="btn btn-sm btn-danger">Editar</a></th>
             
              </tr>
-             <? php endforeach ?>
+             <?php endforeach ?>
           
            </table>
           </div>
