@@ -3,14 +3,14 @@ namespace App\Models;
 use CodeIgniter\Model;
 class DatosModel extends Model{
     public function obtenerInformacion($data){
-       $gModel-> = $this->db->table('persona');
+       $gModel = $this->db->table('persona');
        $gModel->where($data);
         return $gModel->get()->getResultArray();
         
     }
     
     public function listarTodo(){
-        $gModel = $this->query("SELECT * FROM persona");
+        $gModel = $this->db->query("SELECT * FROM persona");
         return $gModel->getResult();
         
     }
@@ -25,13 +25,13 @@ class DatosModel extends Model{
     
     public function actualizar($data,$id){
         $gModel = $this->db->table('persona');
-        $gModel->sset($data);
+        $gModel->set($data);
         $gModel->where($id);
         return $gModel->update();
         
     }
     
-    public funtion eliminar($id){
+    public function eliminar($id){
         $gModel = $this->db->table('persona');
         $gModel->where($id);
         return $gModel->delete();
