@@ -46,7 +46,7 @@ class Miniproyecto extends BaseController
  
  
  
- public funtion actualizar(){
+ public function actualizar(){
  
      $gModel= new DatosModel();
      $data =[
