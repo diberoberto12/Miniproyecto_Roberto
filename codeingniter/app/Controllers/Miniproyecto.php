@@ -27,7 +27,7 @@ class Miniproyecto extends BaseController
 		
 	}
 	
-	public funtion insertar(){
+	public function insertar(){
 	    $gModel = new DatosModel();
             $data = [
 		"nombre" => $_POST['nombre'],
