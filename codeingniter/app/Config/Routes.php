@@ -35,8 +35,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Miniproyecto::index');
 $routes->get('/eliminar/(:any)' , 'Miniproyecto::eliminar/$1');
 $routes->get('/obtenerInformacion/(:any)', 'Miniproyecto::obtenerDatos/$1');
-$routes->post('/actualizar', 'Miniproyecto::actualizar');
-$routes->post('/crear' , 'Miniproyecto::insertar');
+$routes->POST('/actualizar', 'Miniproyecto::actualizar');
+$routes->POST('/crear' , 'Miniproyecto::insertar');
 
 /*
  * --------------------------------------------------------------------
