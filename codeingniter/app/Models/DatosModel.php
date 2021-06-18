@@ -15,7 +15,7 @@ class DatosModel extends Model{
         
     }
     
-    public funtion insertar($data){
+    public function insertar($data){
         $gModel = $this->db->table('persona');
         $gModel ->insert($data);
         return  $this->db->insertID();
