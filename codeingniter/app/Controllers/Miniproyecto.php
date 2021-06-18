@@ -37,7 +37,7 @@ class Miniproyecto extends BaseController
       $respuesta = $gModel ->insertar($data);
 		
       if ($respuesta > 0){
-	  return redirect()->to(base_url('/index.php'))->with('mensaje','0);
+	  return redirect()->to(base_url('/index.php'))->with('mensaje','0');
       }else{
           return redirect()->to(base_url('/index.php'))->with('mensaje','1');
       }
