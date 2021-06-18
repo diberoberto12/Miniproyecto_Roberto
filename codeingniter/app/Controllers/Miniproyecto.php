@@ -10,7 +10,8 @@ class Miniproyecto extends BaseController
 	    $model = new DatosModel();
             $mensaje = session('mensaje');
             $datos = $model->listartodo();
-	    $data = [ "datos" => $datos
+	    $data = [ "datos" => $datos,
+		     "mensaje" => $mensaje
 
 		     
 	    ];
