@@ -1,10 +1,11 @@
 <?php
 namespace App\Models;
 use CodeIgniter\Model;
+
 class DatosModel extends Model{
     public function obtenerInformacion($data){
        $gModel = $this->db->table('persona');
-       $gModel->where($data);
+       $gModel-> where($data);
         return $gModel->get()->getResultArray();
         
     }
