@@ -8,7 +8,7 @@ class Miniproyecto extends BaseController
 	public function index()
 	{
 	    $model = new DatosModel();
-            $datos = $model->listar();
+            $datos = $model->listartodo();
 	    $data = [ "datos" => $datos,
 		     "mensaje" => $mensaje
 		     
