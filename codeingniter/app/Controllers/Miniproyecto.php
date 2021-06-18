@@ -9,8 +9,8 @@ class Miniproyecto extends BaseController
 	{
 	    $model = new DatosModel();
             $datos = $model->listartodo();
-	    $data = [ "datos" => $datos,
-		     "mensaje" => $mensaje
+	    $data = [ "datos" => $datos
+
 		     
 	    ];
 	    return view('listado',$data);
