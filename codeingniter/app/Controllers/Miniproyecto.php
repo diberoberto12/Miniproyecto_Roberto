@@ -51,7 +51,7 @@ class Miniproyecto extends BaseController
      $gModel= new DatosModel();
      $data =[
          "nombre" => $_POST['nombre'],
-	 "a_paterno" ?=> $_POST['apaterno'],
+	 "a_paterno" => $_POST['apaterno'],
 	 "a_materno" => $_POST['amaterno'],      
      
      ];
