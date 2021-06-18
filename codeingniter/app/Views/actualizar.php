@@ -1,3 +1,10 @@
+<?php
+$id = $datos[0]['id'];
+$nombre = $datos [0]['nombre'];
+$apaterno = $datos [0]['a_paterno'];
+$amaterno = $datos [0]['a_matenro'];
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
