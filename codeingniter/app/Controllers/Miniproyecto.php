@@ -69,7 +69,7 @@ class Miniproyecto extends BaseController
      
  }
  
-    public function elimnar($idPersona){
+    public function eliminar($idPersona){
         $gModel = new DatosModel();
 	$id = ["id" => $idPersona];
 	$respuesta = $gModel->eliminar($id);
