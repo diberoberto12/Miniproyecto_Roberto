@@ -21,7 +21,7 @@ $amaterno = $datos [0]['apellido_materno'];
     <div class="container">
     <h1>Actualizar registro</h1>
     <div class="row">
-      <div class="col-ms-12">
+      <div class="col-sm-12">
         <form method="POST" action="<?php echo base_url('/index.php/actualizar') ?>">
           <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
           <label for="nombre">Nombre:</label>
@@ -29,7 +29,7 @@ $amaterno = $datos [0]['apellido_materno'];
           <label for="apaterno">Apellido paterno:</label>
           <input type="text" name="apaterno" id="apaterno" class="form-control" value="<?php echo $apaterno ?>" required>
           <label for="amaterno">Apellido materno:</label>
-          <unput type="text" name="amaterno" id="amaterno" class="form-control" value="<?php echo $amaterno ?>" required>
+          <input type="text" name="amaterno" id="amaterno" class="form-control" value="<?php echo $amaterno ?>" required>
           <button class="btn btn-warning form-control">Editar</button>
          </form>
        </div>
