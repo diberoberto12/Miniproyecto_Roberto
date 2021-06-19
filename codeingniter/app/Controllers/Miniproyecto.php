@@ -22,7 +22,7 @@ class Miniproyecto extends BaseController
 	public function obtenerDatos($id){
 	    $gModel = new DatosModel();
 	    $data = ["id" => $id];
-	    $respuesta = $gModel ->obtenerInfromacion($data);
+	    $respuesta = $gModel ->obtenerInformacion($data);
 		
 	    $datos = ["datos" => $respuesta];
 	    return view('actualizar',$datos);
